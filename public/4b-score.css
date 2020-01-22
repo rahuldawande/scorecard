@@ -1,0 +1,52 @@
+html, body {
+  padding: 0;
+  margin: 10px;
+  font-family: verdana;
+}
+
+/* [SCOREBOARD] */
+#scoreboard {
+  margin: 0 auto;
+  background: #333;
+}
+#scoreboard td {
+  padding: 10px;
+  text-align: center;
+}
+.scoredark{
+  background: #000;
+  border: 3px solid #555;
+  border-radius: 5px;
+  padding: 10px;
+}
+.scoregrey{
+  background: #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+#scoretime {
+  color: #56b231;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#scorenumber {
+  color: #ff2b0f;
+  font-size: 2em;
+  font-weight: bold;
+}
+#scorename {
+  color: #333;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* [HISTORY] */
+#scorehistory {
+  margin-top: 10px;
+}
+#scorehistory div {
+  padding: 5px;
+}
+#scorehistory div:nth-child(odd) {
+  background-color: #f2f2f2
+}
